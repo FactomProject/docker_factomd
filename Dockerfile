@@ -7,7 +7,7 @@
 #
 
 FROM static
-EXPOSE 8088 8108 8384  
+EXPOSE 8088 8089 8090 8108 8384  
 
 COPY certs/certs /etc/ssl/certs/ca-certificates.crt
 
